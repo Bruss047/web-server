@@ -4,8 +4,8 @@
   "description": "",
   "main": "app.js",
   "engines": {
-    "node": "10.3.0"
-  }
+    "node": "10.15.0"
+  },
   "scripts": {
     "start":"node server.js",//npm start
     "nodemon":"nodemon server.js",//npm run nodemon (se pone run porque no es un comando pre establecido)
