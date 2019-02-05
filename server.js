@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const hbs = require('hbs');
 require ('./hbs/helpers');// requiero los Helpers.
-const port=process.env.PORT || 3000 //Modificacion para que funcione Heroku, ya que no se que puerto va a enviar.
+const port=process.env.PORT || 3000; //Modificacion para que funcione Heroku, ya que no se que puerto va a enviar.
 //MiddleWhere: es un callback que se ejecuta siempre sin importar que peticion le hagan al server.
 app.use(express.static(__dirname+'/public')); //Sirvo contenido estatico.
 hbs.registerPartials(__dirname+'/views/parciales');

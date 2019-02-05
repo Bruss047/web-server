@@ -8,18 +8,14 @@
     "nodemon":"nodemon server.js",//npm run nodemon (se pone run porque no es un comando pre establecido)
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-
   "author": "Javier Bruzzese",
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.4",
     "hbs": "^4.0.1"
-  } {
-  "name": "myapp",
-  "description": "a really cool app",
-  "version": "1.0.0",
-  "engines": {
-    "node": "10.15.0"
   }
 }
+
+
+
 
